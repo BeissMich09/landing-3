@@ -1,0 +1,243 @@
+/* При ширине экрана менее 1100px принимаются значения: */
+
+@media (max-width: 1100px) {
+    nav {
+        width: 60%;
+    }
+    .presentation_list {
+        display: flex;
+        flex-direction: column;
+        height: 980px;
+    }
+    .presentation_list_registration {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .sub_list_section {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 900px;
+    }
+    .sub_list_section img {
+        margin-bottom: 50px;
+    }
+    .sub_list_section_information_text h4 {
+        margin-top: 50px;
+    }
+    .sub_list_section_information {
+        height: 500px;
+    }
+    .standard_picture_section {
+        display: flex;
+        flex-direction: column;
+        height: 690px;
+    }
+    .standard_picture_section_information {
+        width: 80%;
+    }
+    .standard_picture_section_information h4 {
+        margin-top: 50px;
+    }
+    .standard_picture_section img {
+        margin-bottom: 50px;
+    }
+    .why_this_is_awesome {
+        height: auto;
+    }
+    .why_this_is_awesome_contant {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .why_this_is_awesome_contant div {
+        margin-top: 20px;
+    }
+    .why_this_is_awesome_header p {
+        margin: 0;
+    }
+    .contact_us {
+        height: auto;
+    }
+    .contact_us_letter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact_us_letter_contacts {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .icons {
+        width: 45%;
+    }
+    .contact_us button {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* При ширине экрана менее 978px принимаются значения: */
+
+@media (max-width: 978px) {
+    nav {
+        width: 60%;
+    }
+    .soft {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .soft_buttons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .soft_contant .soft_contant_first {
+        margin-top: 30px;
+    }
+    .footer_presentation_list_media {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_presentation_list_media_social_media,
+    .footer_presentation_list_media_icons {
+        width: 90%;
+    }
+}
+
+
+/* При ширине экрана менее 730px принимаются значения: */
+
+@media (max-width: 730px) {
+    .navigation nav {
+        display: none;
+    }
+    .hamberger_menu {
+        display: inline;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .presentation_list_description {
+        text-align: center;
+    }
+    .sub_list_section_information_first_icon {
+        width: 40px;
+    }
+    .sub_list_section_information {
+        width: 100%;
+        display: contents;
+    }
+    .soft_buttons button:last-child {
+        border-radius: 0px 5px 5px 0px;
+    }
+    .soft_buttons button:first-child {
+        border-radius: 5px 0px 0px 5px;
+    }
+    .sub_list_section_information_text span,
+    .standard_picture_section_information span,
+    .contact_us span {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .soft_contant {
+        width: 90%;
+    }
+    .soft_contant h4 {
+        margin-top: 25px;
+    }
+    .soft_contant_second {
+        margin-bottom: 35px;
+    }
+    .soft img {
+        margin: 0;
+    }
+    .soft_contant button {
+        margin: 0 auto;
+    }
+    .sub_list_section_information_text {
+        width: 90%;
+    }
+    .standard_picture_section {
+        height: auto;
+    }
+    .standard_picture_section img {
+        margin-top: 25px;
+    }
+}
+
+
+/* При ширине экрана менее 680px принимаются значения: */
+
+@media (max-width: 680px) {
+    .soft_contant button {
+        margin-bottom: 30px;
+    }
+    .contact_us h3 {
+        padding-top: 30px;
+    }
+    .contact_us_letter_message input,
+    .contact_us_letter_contacts input {
+        width: 80%;
+    }
+    .presentation_list_description h2 {
+        width: 80%;
+    }
+    .presentation_list_description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .presentation_list_description {
+        width: 100%;
+    }
+    .presentation_list_description span {
+        display: table;
+    }
+    .presentation_list_description h1 {
+        display: flex;
+    }
+}
+
+
+/* При ширине экрана менее 455px принимаются значения: */
+
+@media (max-width: 455px) {
+    .sub_list_section img,
+    .standard_picture_section img {
+        width: 100%;
+    }
+}
+
+
+/* При ширине экрана менее 350px принимаются значения: */
+
+@media (max-width: 350px) {
+    .sub_list_section img,
+    .standard_picture_section img {
+        height: 200px;
+        width: 100%;
+    }
+    .presentation_list_description h1 {
+        display: flex;
+    }
+    .presentation_list_registration,
+    .soft_buttons,
+    .soft img,
+    .why_this_is_awesome_contant div,
+    .icons {
+        width: 100%;
+    }
+    .presentation_list_description {
+        height: auto;
+    }
+    .footer_presentation_list_media_icons i {
+        font-size: 25px;
+    }
+    .sub_list_section_information_first_icon {
+        width: 68px;
+    }
+}
